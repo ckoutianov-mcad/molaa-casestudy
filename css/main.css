@@ -1,5 +1,6 @@
 :root {
-    --font-sans-serif: "Proxima Nova", sans-serif;
+    --font-regular: "Proxima Nova", sans-serif;
+    --font-wide: "Proxima Nova Wide", sans-serif;
     --dark-gray: #464444;
     --smoky-black: #0D0D0D;
     --white: #ffffff;
@@ -14,9 +15,44 @@ html {
   box-sizing: inherit;
 }
 
-
+/** 
+* Typography
+*/
 body {
-    font-family: var(--font-sans-serif);
+    font-family: var(--font-regular);
     color: var(--smoky-black);
     line-height: 1.5;
+}
+h1, h2, h3 {
+    font-family: var(--font-wide);
+    font-weight: 600;
+}
+
+h1 {
+    font-size: 5rem;
+}
+h2 {
+    line-height: 3;
+}
+
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/**
+* Component
+*/
+.component img {
+    max-width: initial;
+}
+
+.component__img {
+    border: 1px solid var(--dark-gray);
+    overflow-x: auto;
+}
+
+.component__code {
+    border: 1px solid var(--dark-gray);
 }
