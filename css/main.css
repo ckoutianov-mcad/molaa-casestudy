@@ -1,0 +1,22 @@
+:root {
+    --font-sans-serif: "Proxima Nova", sans-serif;
+    --dark-gray: #464444;
+    --smoky-black: #0D0D0D;
+    --white: #ffffff;
+    --primary-color: #C5066B;
+    --secondary-color: #0281C8;
+    --tertiary-color: #cc1583;
+}
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+body {
+    font-family: var(--font-sans-serif);
+    color: var(--smoky-black);
+    line-height: 1.5;
+}
