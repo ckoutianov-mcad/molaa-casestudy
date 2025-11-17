@@ -2,10 +2,10 @@
     --font-regular: "Proxima-Nova", sans-serif;
     --font-extrabold: "Proxima-Nova-Wide", sans-serif;
     --dark-gray: #464444;
-    --smoky-black: #0D0D0D;
+    --smoky-black: #383838;
     --white: #ffffff;
     --primary-color: #C5066B;
-    --secondary-color: #0281C8;
+    --secondary-color: #0395da;
     --tertiary-color: #cc1583;
 }
 html {
@@ -87,4 +87,24 @@ a {
  a:hover {
     color: var(--dark-gray);
  }
+
+ button {
+    color: var(--white);
+    font-family: var(--font-regular);
+    font-weight: 500;
+    font-size: 1rem;
+    border: none;
+    letter-spacing: 0.1em;
+ }
+
+ .button--primary {
+    background-color: var(--smoky-black);
+    padding: 15px 20px;
+ }
+
+ .button--secondary {
+    background-color: var(--secondary-color);
+    padding: 15px 25px;
+ }
+
 
