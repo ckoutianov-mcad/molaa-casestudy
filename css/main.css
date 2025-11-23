@@ -117,11 +117,15 @@ a {
 /**
 *Information
 */
+table {
+    border-spacing: 15px;
+}
 .information__hours, td {
     font-family: var(--font-regular);
     font-size: .8rem;
     font-weight: 800;
 }
+
 
 form {
     display: flex;
@@ -136,4 +140,26 @@ input {
     opacity: 0.6;
     font-family: var(--font-regular);
     font-size: .8rem;
+}
+
+/**
+*Cards
+*/
+.card__collections {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+    border: 1px solid red;
+}
+
+.card__collection {
+    padding:20px;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    grid-gap: 10px;
+    align-items: center;
+}
+
+.digital__image {
+    width: 100%;
 }
