@@ -33,6 +33,7 @@ h1, h2, h3 {
 
 h1 {
     font-size: 72px;
+    text-align: center;
 }
 
 img {
@@ -147,19 +148,21 @@ input {
 */
 .card__collections {
     display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 20px;
-    border: 1px solid red;
-}
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    grid-gap: 20px;  
+    }
 
 .card__collection {
-    padding:20px;
     display: grid;
-    grid-template-columns: 150px 1fr;
-    grid-gap: 10px;
+    grid-template-columns: 300px 1fr;
     align-items: center;
+    padding: 30px;
 }
 
 .digital__image {
     width: 100%;
 }
+
+/**
+*Footer
+*/
