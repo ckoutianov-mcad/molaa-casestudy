@@ -132,8 +132,9 @@ form {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    width: 150px;
-}
+    background-color: var(--white);
+    width: 250px;
+    }
 
 input {
     padding: 10px;
@@ -166,3 +167,38 @@ input {
 /**
 *Footer
 */
+footer {
+    background-color: var(--black);
+    color: var(--white);
+    padding: 30px;
+}
+
+footer p {
+    line-height: 1;
+}
+
+.footer__contact h3 {
+    border-bottom: 1px solid var(--white);
+    padding-bottom: 30px;
+}
+
+.footer__details {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 30px;
+    gap: 40px;
+}
+
+.footer__info {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__subtitle {
+    font-family: var(--font-extrabold);
+}
+.button--footer {
+    background-color: var(--white);
+    color: var(--smoky-black);
+    padding: 15px;
+}
