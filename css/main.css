@@ -78,9 +78,7 @@ img {
 .main__nav-buttons {
     display: flex;
     justify-content: flex-end;
-    border: 1px solid blue;
 }
-
 .button--primary {
     display: flex;
     align-items: baseline;
@@ -89,6 +87,39 @@ img {
 .fa-magnifying-glass {
     background-color: transparent !important;  
 }
+
+.navigation__logo {
+    display: flex;
+    justify-items: flex-start;
+    height: 45px;
+}
+.main__nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+}
+.nav__bar {
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    justify-content: flex-end;
+    flex: 2;
+}
+
+li {
+    font-size: var(--font-extrabold);
+    font-weight: 900;
+    padding: 5px;
+}
+
 /**
 *Action Links
 */
