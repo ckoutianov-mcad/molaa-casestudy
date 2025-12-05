@@ -16,31 +16,6 @@ html {
   box-sizing: inherit;
 }
 
-/** 
-* Typography
-*/
-body {
-    font-family: var(--font-regular);
-    line-height: 1.6;
-    padding: 30px;
-}
-    
-h1, h2, h3 {
-    font-family: var(--font-regular);
-    font-weight: 900;
-    letter-spacing: 0.01em;
-}
-
-h1 {
-    font-size: 72px;
-    text-align: center;
-}
-
-img {
-    max-width: 100%;
-    display: block;
-}
-
 /**
 * Component
 */
@@ -71,6 +46,49 @@ img {
     font-weight: 700;
     font-size: 1.2rem;
  }
+
+ /** 
+* Typography
+*/
+body {
+    font-family: var(--font-regular);
+    line-height: 1.6;
+    padding: 30px;
+}
+    
+h1, h2, h3 {
+    font-family: var(--font-regular);
+    font-weight: 900;
+    letter-spacing: 0.01em;
+}
+
+h1 {
+    font-size: 72px;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/**
+*Page Header - Navigation & Hero
+*/
+.main__nav-buttons {
+    display: flex;
+    justify-content: flex-end;
+    border: 1px solid blue;
+}
+
+.button--primary {
+    display: flex;
+    align-items: baseline;
+    margin: 5px;
+}
+.fa-magnifying-glass {
+    background-color: transparent !important;  
+}
 /**
 *Action Links
 */
