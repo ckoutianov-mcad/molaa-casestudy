@@ -105,7 +105,6 @@ img {
     align-items: center;
     flex: 1;
 }
-
 ul {
     list-style: none;
     padding-left: 0;
@@ -113,11 +112,17 @@ ul {
     justify-content: flex-end;
     flex: 2;
 }
-
 li {
     font-size: var(--font-extrabold);
     font-weight: 900;
     padding: 5px;
+}
+
+.hero__items {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-gap: 30px;
+    justify-items: center;
 }
 
 /**
