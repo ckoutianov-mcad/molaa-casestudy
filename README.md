@@ -1,7 +1,10 @@
 # MOLAA Case Study
 
-> Case study of a design system fo Web Development.
+> Web Development Design Study
+
+## About
+Case Study of Museum of Latin American Art (MOLAA) homepage. 
 
 ## Author
 
-Cinthia Koutianov
+Cinthia Koutianov 
