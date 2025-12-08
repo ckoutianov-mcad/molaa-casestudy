@@ -162,6 +162,10 @@ a {
  .button--secondary {
     background-color: var(--secondary-color);
     padding: 15px 25px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+
  }
 
  .footer__socials {
@@ -187,7 +191,6 @@ table {
     font-weight: 800;
 }
 
-
 form {
     display: flex;
     justify-content: center;
@@ -204,9 +207,55 @@ input {
     font-size: .8rem;
 }
 
+.card__collections-visit {
+    display: flex;
+    justify-content: flex-start;
+}
+.card__collection-visit {
+   display: flex;
+  justify-content: space-between;
+}
+.digital__image-map {
+ height: 400px;
+ width: 950px;
+}
+
 /**
 *Cards
 */
+.featured__collections {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    grid-gap: 20px;
+    padding: 5px;
+}
+
+.featured__collection {
+    justify-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.featured__description-title {
+    font-family: var(--font-regular);
+    font-weight: 400;
+    font-style: normal;
+    line-height: 120%;
+    font-size: larger;
+    padding: 3px 30px 1px;
+}
+
+.featured__description-info {
+    font-family: var(--font-regular);
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: .05em;
+    opacity: .6;
+    font-size: smaller;
+    padding: 5px 40px;
+}
+
 .card__collections {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
@@ -242,50 +291,17 @@ input {
     font-size: smaller;
 }
 
-.featured__collections {
+.digital__walkthrough {
+    height: 340px;
+    width: 600px;
+}
+.card__walkthroughs {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    align-items: center;
-    grid-gap: 20px;
-    padding: 5px;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    grid-gap: 20px;  
+    margin: 20px;
+    margin-bottom: 30px;
 }
-
-.featured__collection {
-    justify-items: center;
-    text-align: center;
-    padding: 20px;
-}
-
-.featured__description-title {
-    font-family: var(--font-regular);
-    font-weight: 400;
-    font-style: normal;
-    line-height: 120%;
-    font-size: larger;
-    padding: 3px 30px 1px;
-}
-
-.featured__description-info {
-    font-family: var(--font-regular);
-    font-weight: 500;
-    font-style: normal;
-    letter-spacing: .05em;
-    opacity: .6;
-    font-size: smaller;
-    padding: 5px 40px;
-}
-.card__collections-visit {
-    display: flex;
-    justify-content: flex-start;
-}
-.card__collection-visit {
-    display: flex;
-  justify-content: space-between;
-}
-.digital__image-map {
-    height: 400px;
-}
-
 
 
 /**
