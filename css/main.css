@@ -124,7 +124,7 @@ li {
     padding: 5px;
 }
 
-.hero__items {
+.hero__items, .footer__affiliates {
     display: grid;
     grid-template-rows: 1fr;
     grid-gap: 30px;
@@ -300,7 +300,6 @@ input {
     grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
     grid-gap: 20px;  
     margin: 20px;
-    margin-bottom: 30px;
 }
 
 
@@ -342,4 +341,13 @@ footer p {
     background-color: var(--white);
     color: var(--smoky-black);
     padding: 15px;
+}
+
+.footer__sponsers {
+    display: grid;
+    grid-template-columns: 600px 1fr;
+}
+
+.footer__sponser {
+    padding: 10px;
 }
