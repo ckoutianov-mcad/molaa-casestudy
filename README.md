@@ -11,4 +11,4 @@ This is a project for the Web Development course at the Minneapolis College of A
 
 ## Author
 
-Project Code: Cinthia Koutianov  |  Source Design:  [Musuem of Latin American Art | MOLAA] (https://molaa.org/)
+Project Code: Cinthia Koutianov  |  Source Design:  [Museum of Latin American Art (MOLAA)](https://molaa.org/)
