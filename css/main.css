@@ -343,11 +343,18 @@ footer p {
     padding: 15px;
 }
 
-.footer__sponsers {
+.footer__sponsors {
     display: grid;
-    grid-template-columns: 600px 1fr;
+    grid-template-columns: 650px 1fr;
 }
 
-.footer__sponser {
+.footer__sponsor {
     padding: 10px;
+}
+
+.footer__img-sponsor {
+    width: 60%;
+}
+.footer__img-affiliates {
+    width: 45%;
 }
