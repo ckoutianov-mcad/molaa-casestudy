@@ -274,6 +274,17 @@ input {
     font-size: smaller;
     padding: 5px 40px;
 }
+.card__collections-visit {
+    display: flex;
+    justify-content: flex-start;
+}
+.card__collection-visit {
+    display: flex;
+  justify-content: space-between;
+}
+.digital__image-map {
+    height: 400px;
+}
 
 
 
